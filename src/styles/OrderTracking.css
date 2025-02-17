@@ -1,0 +1,36 @@
+.order-tracking {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.tracking-step {
+  position: relative;
+  text-align: center;
+}
+
+.step-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+}
+
+.step-label {
+  font-size: 12px;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.active .step-indicator {
+  background-color: #28a745;
+}
